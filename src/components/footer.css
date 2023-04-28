@@ -1,0 +1,109 @@
+.follow{
+    text-align: end;
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+.follow>span{
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+.follow>i{
+    padding-right: 20px;
+    font-size: 25px;
+}
+.footer-content{
+    display: flex;
+    background-color: white;
+    max-width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px 25px 30px 20px;
+    border-radius:15px;
+    box-shadow:  1px 1px 5px #363535;
+    justify-content: space-evenly;
+}
+.footer-link>ul>li>i{
+    color:skyblue;
+    padding-right: 10px;
+}
+.footer-link>h4{
+    padding: 45px 5px 20px 10px;
+    letter-spacing: 1px;
+}
+.footer-link>ul>li{
+    font-weight: lighter;
+    color: rgb(104, 102, 102);
+    cursor: pointer;
+    padding: 5px 5px 7px 5px;
+    font-family:Arial Narrow, sans-serif;
+    font-weight: 200;
+}
+.footer-link>ul{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.footer-component{
+    display: flex;
+    justify-content: space-between;
+    padding-top: -10px;
+    max-width: 1400px;
+    margin: auto;
+}
+.company-name img{
+    height: 100px;
+    width:100px;
+    padding-top: 50px;
+}
+.company h3{
+    font-family: 'Cinzel Decorative', cursive;
+    padding-left: 90px;
+    padding-top: -1000px;
+    margin-top: -60px;
+    margin-left: -20px;
+}
+.footer-component>.footer-contacts{
+    display: flex;
+    align-items: start;
+}
+.footer-component>.footer-contacts>div{
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+.footer-component>.footer-contacts>div>h3{
+    padding-bottom: 10px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    padding-right: 100px;
+    margin-left: -10px;
+
+}
+.footer-component>.footer-contacts>div>ul>li>a{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: -10px;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.footer-component>.footer-contacts>div>ul>li{
+    font-family: 'EB Garamond', serif;
+    padding-top: 5px;
+    margin-left: -40px;
+}
+.footer-component>.footer-contacts>div>ul>li>i{
+    padding-top: 6px;
+    padding-right: 7px;
+}
+.footer{
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    margin-left: -30px;
+}

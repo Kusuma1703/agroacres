@@ -1,0 +1,40 @@
+.about{
+    background:rgba(214, 244, 214, 1);
+}
+.about>p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'EB Garamond', serif;
+    background:rgba(214, 244, 214, 1);
+}
+
+/* .about>h1{
+    text-align: center;
+    padding: 30px 25px 30px 20px;
+    margin-top: 1000px;
+    background:rgba(214, 244, 214, 1);
+} */
+.about h1{
+    text-align: center;
+    padding: 30px 25px 30px 20px;
+    margin-top: 0px;
+    background: rgba(214, 244, 214, 1);
+    padding-top: 80px;
+}
+ul{
+    list-style-type: none;
+}
+.about-component{
+    display:contents;
+    width: 1500px;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    grid-template-columns: 80% 450px;
+    margin-bottom: 500px;
+    margin-top: -30%;
+    background: rgba(214, 244, 214, 1);
+}

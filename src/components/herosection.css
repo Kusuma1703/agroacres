@@ -1,0 +1,101 @@
+*{
+    font-family: 'Cenzil Decorative', sanserif;
+  }
+  .heroThop{
+    background: 
+      url("../assets/field2.png") center center/cover no-repeat;
+      height: 100vh;
+      width: 100%;
+    }
+  /* .hero-container {
+    background-image: url("assets/field2.png") center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+  } */
+  .content{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:flex-start;
+      padding-top: 100px;
+      padding-right: 600px;
+      padding-left: 75px;
+  }
+  .slide1 {
+    font-size: 40px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 0.5px;
+    font-size:x-large;
+    padding-top: -30px;
+    margin-top: -20px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px rgb(0 0 0 / 40%);
+  }
+  .slide1name {
+    font-weight: 600;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 36px;
+    line-height: 60px;
+    color: #fff;
+    padding-top: 15px;
+    text-shadow: 1px 1px rgb(0 0 0 / 40%);
+  }
+  
+  .hero-container > h1 {
+    color:#fff;
+    font-size: 40px;
+    margin-top: -100px;
+  }
+  
+  .hero-container > p {
+    margin-top: -8px;
+    color:#fff;
+    font-size: 90px;
+    font-family: 'Clicker Script', cursive;
+    padding-left: 40px;
+  }
+  
+  .hero-btns {
+    margin-top: 20px;
+
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+    color: darkolivegreen;
+    font-weight: bolder;
+  }
+  .moneylogo i{
+    color: var(--primary);
+  
+  }
+  
+  
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
